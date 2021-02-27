@@ -27,6 +27,35 @@ hr {
 
 /*______________________________________________________________________________________________________________*/
 
+#conf_menu {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+#conf_menu .container {
+    height: 100%;
+}
+
+#conf_menu h3 {
+    color: #ffff;
+    text-align: center;
+    margin: 0% auto;
+}
+
+#conf_menu h1 {
+    color: #ffff;
+    text-align: center;
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#conf_menu img {
+    height: 200px;
+}
+
 #grad1 {
     background-image: linear-gradient(transparent 50%, rgb(91, 201, 245) 100%), url(../img/img20.jpg);
     background-repeat: no-repeat;
@@ -63,19 +92,4 @@ hr {
 
 .cor_fundo_amarelo {
     background-color: rgb(252, 255, 45);
-}
-
-.conf_menu h3 {
-    color: #ffff;
-    text-align: center;
-    margin: 0%;
-}
-
-.conf_menu h1 {
-    color: #ffff;
-    text-align: center;
-    margin: 0%;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    font-weight: bold;
 }
