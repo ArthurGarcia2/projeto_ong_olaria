@@ -6,82 +6,102 @@
 
 /*______________________________________________________________________________________________________________*/
 
-ul {
-    margin-left: 70%;
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    text-align: center;
 }
 
 hr {
-    margin: 6px;
-    padding: 0px;
-    width: 80%;
-    height: 4px;
-    background: linear-gradient(to right, transparent, rgb(196, 230, 76), transparent);
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    font-size: 40px;
 }
 
 
 /*______________________________________________________________________________________________________________*/
 
 
-/* Aqui vem todo css por id*/
+/* Aqui vem todo css por id */
 
 
 /*______________________________________________________________________________________________________________*/
 
 #conf_menu {
-    width: 100%;
+    text-align: right;
+}
+
+#conf_menu div {
+    background-color: #343a40;
     margin: 0%;
     padding: 0%;
 }
 
-#conf_menu .container {
-    height: 100%;
+#conf_menu .col-4 {
+    text-align: left;
 }
 
-#conf_menu h3 {
-    color: #ffff;
-    text-align: center;
-    margin: 0% auto;
-}
-
-#conf_menu h1 {
-    color: #ffff;
-    text-align: center;
-    margin: 0%;
+#conf_menu h1,
+h5 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
-    font-weight: bold;
+    color: #cccbcb;
 }
 
 #conf_menu img {
-    height: 200px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#conf_menu ul,
+li {
+    margin: 0%;
+    height: 40px;
+}
+
+#conf_menu li {
+    border-left: 1px solid #000;
+    margin-left: 2px;
+}
+
+#conf_menu ul {
+    margin-left: 47%;
 }
 
 #grad1 {
     background-image: linear-gradient(transparent 50%, rgb(91, 201, 245) 100%), url(../img/img20.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    height: 80vh;
 }
 
 #grad2 {
     background-image: linear-gradient(transparent 50%, rgb(91, 201, 245) 100%), url(../img/img17.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    height: 80vh;
 }
 
 #grad3 {
     background-image: linear-gradient(transparent 50%, rgb(91, 201, 245) 100%), url(../img/img2.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    height: 80vh;
 }
 
 
 /*______________________________________________________________________________________________________________*/
 
 
-/* Aqui vem todo css por class*/
+/* Aqui vem todo css por class */
 
 
 /*______________________________________________________________________________________________________________*/
@@ -92,4 +112,16 @@ hr {
 
 .cor_fundo_amarelo {
     background-color: rgb(252, 255, 45);
+}
+
+
+/* Tags do bootstrap editadas aqui */
+
+.container-fluid {
+    padding: 0%;
+}
+
+.carousel-inner,
+.carousel-item {
+    height: 80vh;
 }
