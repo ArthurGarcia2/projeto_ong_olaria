@@ -50,18 +50,12 @@ h1 {
 #conf_menu h1,
 h5 {
     font-family: 'Times New Roman', Times, serif;
-    color: #cccbcb;
+    color: rgb(186, 229, 247);
 }
 
 #conf_menu img {
     height: 40px;
     margin-right: 10px;
-}
-
-#conf_menu ul,
-li {
-    margin: 0%;
-    height: 40px;
 }
 
 #conf_menu li {
