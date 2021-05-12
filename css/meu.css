@@ -47,11 +47,12 @@ h1 {
     text-align: left;
 }
 
-#conf_menu h1,
+
+/* #conf_menu h1,
 h5 {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(186, 229, 247);
-}
+} */
 
 #conf_menu img {
     height: 40px;
@@ -68,27 +69,43 @@ h5 {
 }
 
 #grad1 {
-    background-image: linear-gradient(transparent 50%, rgb(91, 201, 245) 100%), url(../img/img20.jpg);
+    background-image: linear-gradient(transparent 50%, rgb(91, 201, 245) 100%), url(../img/img1.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 80vh;
+    height: 50vw;
 }
 
 #grad2 {
-    background-image: linear-gradient(transparent 50%, rgb(91, 201, 245) 100%), url(../img/img17.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 80vh;
-}
-
-#grad3 {
     background-image: linear-gradient(transparent 50%, rgb(91, 201, 245) 100%), url(../img/img2.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 80vh;
+    height: 50vw;
+}
+
+#grad3 {
+    background-image: linear-gradient(transparent 50%, rgb(91, 201, 245) 100%), url(../img/img3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vw;
+}
+
+#grad4 {
+    background-image: linear-gradient(transparent 50%, rgb(91, 201, 245) 100%), url(../img/img4.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vw;
+}
+
+#grad5 {
+    background-image: linear-gradient(transparent 50%, rgb(91, 201, 245) 100%), url(../img/img5.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vw;
 }
 
 
@@ -108,6 +125,11 @@ h5 {
     background-color: rgb(252, 255, 45);
 }
 
+.titulos {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(186, 229, 247);
+}
+
 
 /* Tags do bootstrap editadas aqui */
 
@@ -115,7 +137,8 @@ h5 {
     padding: 0%;
 }
 
-.carousel-inner,
+
+/* .carousel-inner,
 .carousel-item {
-    height: 80vh;
-}
+    height: ;
+} */
